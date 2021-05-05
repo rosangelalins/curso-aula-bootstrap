@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Minha Página</title>
+    <meta charset="UTF-8">
+    <!--aqui começa o bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+            <img src="img/Logo1.png" alt="Dio" width="100" height="100">
+        </a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <!--não precisa criar paginas, com o #quemsomos ele leva para a seção-->
+                    <a class="nav-link active" href="#quemsomos">Quem somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#parceiros">Parceiros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#serviços">Serviços</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--seção-->
+
+    <section id="quemsomos">
+        <!--container-fluid, pega a pagina toda-->
+        <!--container sempre vai centralizar-->
+        <div class="container-fluid quem-somos text-center margin">
+            <h3 class="margin">Quem Somos</h3>
+            <!--class="rounded-circle" para a foto ficar redonda-->
+            <img src="img/Logo1.png" width="400" height="400">
+            <h3>Aqui você faz suas compras sem sair de casa, encontre diversos fornecedores</h3>
+        </div>
+    </section>
+
+    <section id="parceiros">
+        <div class="container-fluid parceiros text-center margin">
+            <h3 class="margin">Parceiros</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="img/p1.png" class="rounded-circle" width="200" height="200">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="img/p2.png" class="rounded-circle" width="200" height="200">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="img/p3.png" class="rounded-circle" width="200" height="200">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="serviços">
+        <div class="container-fluid serviços text-center margin">
+            <h3 class="margin">Serviços</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <p>Entregamos na sua casa</p>
+                        <img src="img/serv1.png" width="100%">
+                    </div>
+                    <div class="col-lg-4">
+                        <p>Diversas frutas</p>
+                        <img src="img/serv2.jpg" width="100%">
+                    </div>
+                    <div class="col-lg-4">
+                        <p>Legumes e verduras</p>
+                        <img src="img/serv3.jpg" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid text-center bg-footer margin">
+        <p>Desenvolvido por Rosângela Lins</p>
+    </footer>
+
+</body>
+
+</html>
